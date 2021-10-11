@@ -13,5 +13,5 @@ Ans : Please refer refactored.js file.
 Note: There is always a scope of further re-factoring by spliting the db methods in seperate files and making them re-usable. 
 
 
-#### 3. How might you use the latest JavaScript features to refactor the code?
+#### 4. How might you use the latest JavaScript features to refactor the code?
 Ans: Please refer refactored.js file wherein I have tried to use latest JS features like async-await and object destructuring.  
