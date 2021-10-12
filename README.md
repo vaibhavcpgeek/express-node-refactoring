@@ -5,6 +5,7 @@ Ans: Please refer line 29 and 32
 #### 2. Can you see any potential problems that could lead to exceptions?
 Ans: Request made by superagent doesnt check the error response first. In case user is not authorized, invitation response might through an exception while extracting
 invitaionId and authId within response body.  
+
 With re-factored code, the call is moved inside try catch block so any error in request will go into catch block and
 can be handled gracefully. 
 
